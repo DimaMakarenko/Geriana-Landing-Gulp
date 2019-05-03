@@ -1,0 +1,35 @@
+.call_us {
+  text-align: center;
+  padding-top: 60px;
+  color: #0b2a37;
+}
+
+.call_us h3 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.call_us p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.call_us a p {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.call_us a {
+  border-radius: 6px;
+  background-color: #ff6262;
+  /*opacity: 0.902;*/
+  width: 209px;
+  height: 40px;
+  margin: 40px auto;
+}
+
+.call_us a:hover {
+  background-color: #c14545;
+}

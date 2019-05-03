@@ -1,0 +1,85 @@
+.recalls_img {
+  background: url("../image/recalls/537819918.jpg") no-repeat center/ cover;
+}
+.recalls {
+  color: #0b2a37;
+}
+
+.recalls h3 {
+  text-align: center;
+  display: block;
+  margin: 80px;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.users {
+  padding-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 1440px;
+  min-width: 480px;
+  margin: 0 auto;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+.user_name {
+  font-weight: 700;
+}
+
+.name_position_avatar {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px 5px 30px 0;
+}
+
+.name_position {
+  text-align: right;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.comment {
+  position: relative;
+  background-color: #eff7f7;
+  width: 410px;
+  padding: 40px 20px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.comment::before {
+  content: "";
+  position: absolute;
+  bottom: -30px;
+  right: 0;
+  border: 15px solid transparent;
+  border-top: 15px solid #eff7f7;
+  border-right: 15px solid #eff7f7;
+  height: 0;
+  width: 0;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.search_btn {
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 6px;
+  width: 270px;
+  height: 66px;
+}

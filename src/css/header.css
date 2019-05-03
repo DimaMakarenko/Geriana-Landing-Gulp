@@ -1,0 +1,99 @@
+.header{
+    position: absolute;
+    width: 100%;
+    max-width: 1440px;
+    padding: 21px 30px 0px 30px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    top: 0;
+    z-index: 15;
+}
+.header a {
+    color: #ffffff;
+}
+
+.nav_left,
+.nav_right,
+.nav_right_button_menu a,
+.nav_left_help_center,
+.nav_left_call_us {
+    display: flex;
+    align-items: center;
+}
+.top_banner_title {
+    margin: 20px auto;
+    padding: 0 10px;
+    width: 100%;
+    max-width: 830px;
+    text-align: center;
+    top: 29%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.icon_hamburger {
+    margin: 0 9px;
+}
+
+.icon_hamburger span {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    margin: 5px 0px;
+    border-radius: 1px;
+}
+
+.nav_right_log_in {
+    margin: 0px 29px;
+}
+
+.nav_right_sign_up {
+    margin: 0px 19px;
+}
+
+.nav_left .nav_left_logo a {
+    display: block;
+    width: 260px;
+    height: 61px;
+    background-image: url("../image/logo/logo.png");
+}
+
+.nav_left_help_center a,
+.nav_left_call_us a {
+    text-transform: uppercase;
+    display: block;
+    margin: auto;
+}
+
+.nav_left_help_center {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 6px;
+    opacity: 0.902;
+    width: 161px;
+    height: 36px;
+    margin: 0 10px 0 30px;
+}
+
+.nav_left_call_us {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 6px;
+    opacity: 0.902;
+    width: 96px;
+    height: 36px;
+}
+.nav_left_help_center a:hover,
+.nav_left_call_us a:hover,
+.nav_right_sign_up a:hover,
+.nav_right_log_in a:hover,
+.nav_right_button_menu a:hover {
+    color: #333232;
+}
+
+.icon_hamburger:hover span,
+.nav_right_button_menu a:hover .icon_hamburger span {
+    background-color: #333232;
+}

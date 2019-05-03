@@ -1,0 +1,50 @@
+.specialists {
+  max-width: 1440px;
+  min-width: 480px;
+  color: #0b2a37;
+  margin: 0 auto 100px auto;
+}
+
+.specialists h3 {
+  display: block;
+  padding: 0 10px;
+  text-align: center;
+  margin: 30px auto 15px auto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 100px;
+}
+
+.item_box {
+  color: black;
+  display: flex;
+  flex-basis: 100px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  min-width: 276px;
+  margin-top: 15px;
+}
+
+.item_box h4 {
+  padding: 40px 0 20px 0;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 26px;
+}
+
+.item_box p {
+  padding: 5px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.items {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 auto;
+}
